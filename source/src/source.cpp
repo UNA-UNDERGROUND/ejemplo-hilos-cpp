@@ -1,3 +1,3 @@
-#include <iostream>
+#include <saludo.hpp>
 
-int main() { std::cout << "hola mundo\n"; }
+int main() { saludo({"Juan", "Pedro", "Luis"}); }
