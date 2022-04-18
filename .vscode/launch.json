@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Depurar hilos(lldb)",
+            "program": "${workspaceFolder}/builddir/source/hilos",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "windows": {
+                "program": "${workspaceFolder}/builddir/source/hilos.exe",
+            },
+            "preLaunchTask": "build project"
+        }
+    ]
+}
