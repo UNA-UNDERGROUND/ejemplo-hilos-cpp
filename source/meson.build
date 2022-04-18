@@ -2,7 +2,7 @@
 hilos_incl = [include_directories('include')]
 hilos_srcs = [
     'src/source.cpp',
-    'src/saludo.cpp'
+    'src/saludo.cpp',
 ]
 hilos_args = []
 hilos_link = []
